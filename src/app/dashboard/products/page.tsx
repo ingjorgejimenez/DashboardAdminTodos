@@ -1,5 +1,5 @@
 import { ProductCard } from '@/components/products'
-import { products } from '@/common/seed/product'
+import { products } from '@/seed/product'
 
 export default function ProductPage() {
   return (

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { IoAddCircleOutline, IoRemove } from 'react-icons/io5'
 
 import { useRouter } from 'next/navigation'
-import { Product } from '@/common/seed/product'
+import { Product } from '@/seed/product'
 import {
   addProductToCart,
   removeProductFromCart,

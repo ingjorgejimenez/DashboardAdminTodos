@@ -63,7 +63,7 @@ export async function POST(request: Request) {
 
 export async function DELETE() {
   try {
-    const { user } = await authSession() // Obtener las cookies ya que viajan por la header
+    const { user } = await authSession() // Obtener las cookies ya que viajan por la
     const { count } = await prisma.todo.deleteMany({ where: { complete: true, userId: user?.id } })
     return NextResponse.json(`items: ${count} deleted successfully`)
   } catch (error) {

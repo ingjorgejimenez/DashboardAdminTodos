@@ -1,6 +1,6 @@
 import { WidgetItem } from '@/common/components/WidgetItem'
 import { ItemCart } from '@/components/shopping-cart/ItemCart'
-import { products } from '@/common/seed/product'
+import { products } from '@/seed/product'
 import { CartStoreData } from '@/common/helpers/shopping-cart'
 import { cookies } from 'next/headers'
 
